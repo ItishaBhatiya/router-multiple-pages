@@ -3,23 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: rgb(245, 242, 242);
-}
 .nav{
-    background-color: lightgray;
+    background-color:black;
     display: flex;
     justify-content: center;
+    
     padding: 15px;
 }
 .nav .sidebar{
     padding: 10px 20px;
     font-size: 20px;
     text-align: center;
-    color: rgb(58, 57, 57);
+    color: silver;
     text-decoration: none;
 }
 .nav .sidebar:hover{
     font-weight: 700;
-    color: black;
+    color: white;
 }
+.parent-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.parent-box img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    padding: 12px;
+}
+.parent-box img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Box{
+ margin: 30px;
+ padding: 20px;
+ text-align: center;
+ border-radius: 15px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Box h2{
+    text-decoration: none !important;
+    color: black !important;
+}
+

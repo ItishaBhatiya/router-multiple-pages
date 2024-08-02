@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(245, 242, 242);
+}
+.nav{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.nav .sidebar{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(58, 57, 57);
+    text-decoration: none;
+}
+.nav .sidebar:hover{
+    font-weight: 700;
+    color: black;
+}
